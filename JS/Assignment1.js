@@ -85,5 +85,5 @@ function sumOfArrayIndex(arr) {
     console.log(sum)
 }
 
-// sumOfArrayIndex(array1);
-// sumOfArrayIndex(array2);
+sumOfArrayIndex(array1);
+sumOfArrayIndex(array2);

@@ -1,7 +1,8 @@
 // Q No 1: Write a function that returns the square of a number
 
 function squareNum(x) {
-    console.log(x * x);
+    let y = x * x;
+    console.log(y);
 }
 
 squareNum(5);
@@ -63,14 +64,13 @@ var o = ["th","st","nd","rd"];
 
 
 
-// function displayColors(arr1,arr2) {
-//     if(arr1[0] === "Blue"){
-
-//         // let first =  arr1[0] += arr2[1];
-//        console.log(`1${arr2[1]} choice is ${arr1[0]}`);
-//     }
-// }
-// displayColors(color,o)
+function displayColors(arr1,arr2) {
+    if(arr1[0] === "Blue"){
+        // let first =  arr1[0] += arr2[1];
+       console.log(`1${arr2[1]} choice is ${arr1[0]}`);
+    }
+}
+displayColors(color,o)
 
 // Q No 7 : There are two arrays with individual values. Write a JavaScript program to compute the sum of each individual index value in the given array.
 // Sample array :
@@ -80,7 +80,7 @@ array2 = [3,5,6,7,8,13];
 function sumOfArrayIndex(arr) {
     let sum = 0;
     for (let i = 0; i < arr.length; i++) {
-        sum = sum + i ;
+        sum = sum + i;
     }
     console.log(sum)
 }

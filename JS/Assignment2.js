@@ -190,14 +190,14 @@ function modulus(nmbr) {
   if (userNmbr <= 0) {
     answer7.innerHTML = "Please write Positive Number";
   } else if (userNmbr % 3 == 0 && userNmbr % 7 == 0) {
-    answer7.innerHTML = "This Number is Multiply by 3 and 7 Both";
+    answer7.innerHTML = "This Number is Multiply of 3 and 7 Both";
     // console.log("This number multiply by 3 and 7 Both.");
   } else if (userNmbr % 3 == 0) {
-    answer7.innerHTML = "This Number is Multiply by 3";
+    answer7.innerHTML = "This Number is Multiply of 3";
   } else if (userNmbr % 7 == 0) {
-    answer7.innerHTML = "This Number is Multiply by 7";
+    answer7.innerHTML = "This Number is Multiply of 7";
   } else {
-    answer7.innerHTML = "This is did'nt multiply by 3 and 7.";
+    answer7.innerHTML = "This Number didn't multiply by 3 and 7.";
     // console.log("This number did'nt multiply by 3");
   }
   return userNmbr;

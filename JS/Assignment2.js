@@ -11,8 +11,6 @@ function randomNumber() {
   let rndmNmbr = Math.floor(Math.random() * 10 + 1);
   return rndmNmbr.toString();
   // console.log(rndmNmbr);
-
-  // if(rndmNmbr === )
 }
 
 checkBtn.onclick = function () {
@@ -30,7 +28,7 @@ checkBtn.onclick = function () {
   }
 };
 
-// Q No : 2
+// Q No : 2 Write a JavaScript program to calculate multiplication and division of two numbers (input from the user).
 
 let input1 = document.getElementById("numberInput1");
 let input2 = document.getElementById("numberInput2");
@@ -117,10 +115,7 @@ let answer4 = document.getElementById("answer4");
 
 function removeChar(str, char) {
   let indexOfWord = str.indexOf(char);
-
   let removed = str.replace(str[indexOfWord], "");
-
-  // let removed = userWord.remove(indexOfWord, 1);
   return removed;
 }
 
@@ -171,9 +166,6 @@ function addCharFirstAndLast(char) {
   let firstChar = userInpt6[0];
   let fullWord = firstChar + userInpt6 + firstChar;
   return fullWord;
-
-  // let addFirst = firstChar;
-  // let addLast =
 }
 
 enterBtn6.onclick = function () {
@@ -239,9 +231,6 @@ btn8.onclick = function () {
   let lastThreeFun = lastThreeChars(value8);
   answer8.style.display = "block";
   answer8.innerHTML = lastThreeFun;
-//   if(value8.length <= 2){
-//     answer8.innerHTML = "The string length must be 3 or more.";
-//   }
 };
 
 
@@ -331,9 +320,6 @@ function sumFun(val1,val2){
     let secondValue = parseInt(val2.value);
 
     let sum = firstValue + secondValue;
-    // if(Q11_input1.length < 1 || Q11_input2.length < 1){
-    //     return ("please put some value!")
-    // }
      if(sum >= 50 && sum <= 80){
         return (65);
     }else if (sum < 50 || sum > 80){

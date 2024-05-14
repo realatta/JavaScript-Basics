@@ -21,7 +21,7 @@ checkBtn.onclick = function () {
     // console.log("Good Work You Guess Nmbr : " + randomNmbr);
     answerBox.innerHTML = "Good Work!";
   } else if (inputValue === "") {
-    answerBox.innerHTML = "Please write any No 1 to 10 in Input Field!";
+    answerBox.innerHTML = "Please write any number 1 to 10 in Input Field!";
   } else {
     // console.log("Not matched random Nmbr is : " + randomNmbr);
     answerBox.innerHTML = "Not matched random number is : " + randomNmbr;

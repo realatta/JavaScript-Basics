@@ -14,7 +14,7 @@ btn1.onclick = function () {
   let userValue = temInput.value;
   let celFun = calToFah(userValue);
   answer1.style.visibility = "visible";
-  answer1.innerHTML = celFun + "Hello";
+  answer1.innerHTML = celFun;
 
   if (userValue == "") {
     answer1.innerHTML = "!";

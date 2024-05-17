@@ -120,3 +120,7 @@ tr, th , td {
 #span {
     column-span: 2;
 }
+.studentResult {
+    display: flex;
+    align-items: center;
+}
